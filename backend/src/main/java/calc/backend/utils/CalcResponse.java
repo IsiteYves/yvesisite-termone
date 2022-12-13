@@ -1,4 +1,4 @@
-package calc.backend.dto;
+package calc.backend.utils;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,6 +1,5 @@
 package calc.backend.interfaces;
 
-import calc.backend.dto.CalcResponse;
 import calc.backend.exceptions.InvalidOperationException;
 
 public interface MathOperator {

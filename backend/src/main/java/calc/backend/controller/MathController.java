@@ -1,14 +1,13 @@
 package calc.backend.controller;
 
-import calc.backend.dto.CalcResponse;
+import calc.backend.utils.CalcResponse;
 import calc.backend.dto.DoMathRequest;
 import calc.backend.exceptions.InvalidOperationException;
 import calc.backend.impl.MathOperatorImpl;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/math")
+@RequestMapping("/")
 public class MathController {
     MathOperatorImpl mathOperatorImpl = new MathOperatorImpl();
 
